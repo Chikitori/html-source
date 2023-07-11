@@ -1035,7 +1035,7 @@ body {
   justify-content: center;
   padding: 8px;
 }
-#i0v6rs {
+.view-all-btn {
   margin: 0px;
   font-size: 0.875rem;
   line-height: 1.57;
@@ -1045,6 +1045,7 @@ body {
   color: rgb(24, 144, 255);
   text-align: center;
   cursor: pointer;
+  visibility: hidden;
 }
 #i54jv2 {
   margin: 0px -16px;
