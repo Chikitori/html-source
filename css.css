@@ -1063,13 +1063,13 @@ body {
 #iiz0fj {
   padding: 16px 0px;
 }
-#i5eszp {
+.item-container {
   margin-top: 8px;
 }
-#ii7b9a {
+.item-header {
   display: flex;
 }
-#i0tv4u {
+.user-title {
   margin: 0px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -1124,7 +1124,7 @@ body {
   justify-content: center;
   padding: 8px;
 }
-#impap6 {
+.view-all-btn {
   margin: 0px;
   font-size: 0.875rem;
   line-height: 1.57;
