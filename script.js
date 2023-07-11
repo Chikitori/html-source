@@ -13,7 +13,7 @@ function onSplitBtnClick () {
 //View all btn comment
 const DeskComment = document.querySelector("#desk-comment")
 
-const allComments =  DeskComment.querySelectorAll(`[data-type=comment]`);
+const allComments =  DeskComment.querySelectorAll("[data-type=comment]");
 const viewAllBtn =  DeskComment.querySelector(".view-all-btn")
     if (allComments.length > 1){
      viewAllBtn.style.visibility = "visible";
