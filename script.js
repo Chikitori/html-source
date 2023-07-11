@@ -45,3 +45,12 @@ function onViewAllCommentClick () {
       console.log(`close~~~`)
 }
 }
+
+// New Write button
+
+const newBtn = document.querySelector("#new-btn-write");
+newBtn.addEventListener("click",onClickWriteBtn);
+function onClickWriteBtn () {
+  const writeModal = document.querySelector('#write-page');
+  writeModal.setAttribute("open",true)
+}
